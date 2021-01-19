@@ -37,7 +37,7 @@ float Read_Voltage_CPU(int cpu_num);
 extern struct program_options prog_options;
 FILE *fp_log_file;
 
-struct timespec global_ts;
+extern struct timespec global_ts;
 extern FILE *fp_log_file_freq_1, *fp_log_file_freq_2;
 
 extern char* CPU_FREQUENCY_LOGGING_FILE_single;

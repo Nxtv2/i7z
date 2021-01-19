@@ -34,6 +34,7 @@ int Dual_Socket();
 
 int socket_0_num=0, socket_1_num=1;
 bool use_ncurses = true;
+struct timespec global_ts;
 
 /////////////////////LOGGING TO FILE////////////////////////////////////////
 FILE *fp_log_file_freq;

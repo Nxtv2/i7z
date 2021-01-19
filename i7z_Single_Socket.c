@@ -35,7 +35,7 @@ int Read_Thermal_Status_CPU(int cpu_num);
 extern struct program_options prog_options;
 extern FILE *fp_log_file_freq;
 
-struct timespec global_ts;
+extern struct timespec global_ts;
 
 extern char* CPU_FREQUENCY_LOGGING_FILE_single;
 extern char* CPU_FREQUENCY_LOGGING_FILE_dual;
